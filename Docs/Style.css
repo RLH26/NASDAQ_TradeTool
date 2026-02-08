@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  background: #070a12;
+  color: #e8ecff;
+  font-family: -apple-system, system-ui;
+}
+header {
+  padding: 14px;
+  background: #0b0f19;
+  position: sticky;
+  top: 0;
+}
+.title { font-size: 20px; font-weight: 800; }
+.sub { font-size: 12px; opacity: .7; }
+button {
+  margin-top: 8px;
+  padding: 8px 12px;
+  border-radius: 8px;
+  background: #1a2350;
+  color: white;
+  border: none;
+}
+main { padding: 14px; }
+.card {
+  background: #0b1020;
+  border: 1px solid rgba(255,255,255,.1);
+  border-radius: 12px;
+  padding: 12px;
+  margin-bottom: 12px;
+}
+a { color: #9fb6ff; }
