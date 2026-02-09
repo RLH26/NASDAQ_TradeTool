@@ -95,7 +95,7 @@ def quote(s: str) -> str:
     return q(s, safe="")
 
 def main():
-    tickers = nasdaq_tickers()
+    tickers = nasdaq_tickers()[:100]
 
     items = []
     checked = 0
