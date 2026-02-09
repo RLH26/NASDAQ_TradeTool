@@ -2,12 +2,14 @@
 <html lang="en">
 <head>
   <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Trade Ideas (NASDAQ)</title>
+
   <link rel="manifest" href="manifest.json">
   <link rel="stylesheet" href="style.css">
   <meta name="theme-color" content="#0b0f19">
 </head>
+
 <body>
   <header>
     <div class="title">Trade Ideas</div>
@@ -16,14 +18,19 @@
   </header>
 
   <main>
+    <!-- Silent jump checker -->
     <section class="card">
-  <div style="font-weight:800; margin-bottom:8px;">Silent jump check</div>
-  <div style="display:flex; gap:8px; flex-wrap:wrap;">
-    <input id="tickerInput" placeholder="Enter ticker (e.g. ASTS)" style="flex:1; padding:10px; border-radius:10px; border:1px solid rgba(255,255,255,.12); background:#070a12; color:#e8ecff;">
-    <button id="checkBtn">Check</button>
-  </div>
-  <div id="checkResult" style="margin-top:10px; opacity:.95;"></div>
-</section>
+      <div style="font-weight:800; margin-bottom:8px;">Silent jump check</div>
+      <div style="display:flex; gap:8px; flex-wrap:wrap;">
+        <input
+          id="tickerInput"
+          placeholder="Enter ticker (e.g. ASTS)"
+          style="flex:1; padding:10px; border-radius:10px; border:1px solid rgba(255,255,255,.12); background:#070a12; color:#e8ecff;"
+        />
+        <button id="checkBtn">Check</button>
+      </div>
+      <div id="checkResult" style="margin-top:10px; opacity:.95;"></div>
+    </section>
 
     <section id="stats" class="card"></section>
     <section id="list"></section>
